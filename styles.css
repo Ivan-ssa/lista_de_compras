@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+.container {
+    background-color: rgb(231, 231, 231);
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.formulario_grupo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.formulario_grupo div {
+    margin: 10px 20px;
+}
+.formulario_grupo input {
+    width: 150px; /* Ajusta a largura das caixas de entrada */
+    padding: 5px;
+    font-size: 16px;
+}
+.item-list {
+    margin-top: 20px;
+    text-align: left;
+}
+.item {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #555;
+}
